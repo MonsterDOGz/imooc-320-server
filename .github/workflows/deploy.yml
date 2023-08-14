@@ -22,7 +22,7 @@ jobs:
 
       - name: create a file # 创建一个文件
         run: |
-          cd test-server
+          cd test-folder
           touch a.txt
           echo "hello world" > a.txt
           cat a.txt
